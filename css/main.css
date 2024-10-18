@@ -382,7 +382,7 @@ div#loading img {
 @media (min-width: 992px) {
   .site-header--menu-left .menu-block .site-menu-main {
     justify-content: flex-start;
-    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 @media (min-width: 1200px) {
@@ -24731,6 +24731,7 @@ Content Area-1 L-11-2
 .inner-about-us-area {
   padding-top: 115px;
   padding-bottom: 50px;
+  background-color: #F9FAFB;
 }
 
 @media (min-width: 480px) {
@@ -24749,7 +24750,7 @@ Content Area-1 L-11-2
 
 @media (min-width: 992px) {
   .inner-about-us-area {
-    padding-top: 170px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
 }
