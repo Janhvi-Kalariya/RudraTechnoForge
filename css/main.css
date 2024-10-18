@@ -377,9 +377,14 @@ div#loading img {
 
 .site-header--menu-left .menu-block .site-menu-main {
   justify-content: flex-start;
-  padding-left: 15px;
+  padding-left: 0px;
 }
-
+@media (min-width: 992px) {
+  .site-header--menu-left .menu-block .site-menu-main {
+    justify-content: flex-start;
+    padding-left: 40px;
+  }
+}
 @media (min-width: 1200px) {
   .site-header--menu-left .menu-block {
     width: 100%;
@@ -613,7 +618,7 @@ div#loading img {
 
 @media (min-width: 992px) {
   .site-menu-main .nav-link-item {
-    padding-top: 35px !important;
+    padding-top: 45px !important;
     padding-bottom: 33px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -5148,12 +5153,24 @@ li.sub-menu--item.nav-item-has-children i {
   list-style: disc;
 }
 
-.service-l4-card:hover {
-  background: #FFCD28;
+.service-l4-card:hover { 
+  background: #1787FC;
 }
-
+.service-l4-card:hover h4{
+  color: #fff;
+}
+.service-l4-card:hover p{
+  color: #fff;
+}
+.service-l4-card:hover h1{
+  color: #fff;
+}
+.service-l4-card:hover ul{
+  color: #fff;
+}
 .service-l4-card:hover .number h1 {
   opacity: 1;
+  color: #fff;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
@@ -5412,13 +5429,13 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (min-width: 768px) {
   .footer-l4-area-items h3 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 992px) {
   .footer-l4-area-items h3 {
-    margin-bottom: 45px;
+    margin-bottom: 40px;
   }
 }
 
@@ -5427,6 +5444,9 @@ li.sub-menu--item.nav-item-has-children i {
   font-size: 21px;
   line-height: 30px;
   color: #fff;
+}
+.footer-social-icon-l4 i {
+  color: #1D263A;
 }
 
 .contact-form-l4 .name-email-area {
@@ -5924,7 +5944,7 @@ li.sub-menu--item.nav-item-has-children i {
   font-size: 17px;
   line-height: 30px;
   letter-spacing: 4px;
-  color: #1D263A;
+  color: #007AFF;
   opacity: 0.7;
 }
 
@@ -8264,7 +8284,7 @@ li.sub-menu--item.nav-item-has-children i {
                       Clients Area-L8
         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .clients-area-l8 {
-  background: #F9FAFB;
+  background: #D1E7FE;
   padding-top: 55px;
   padding-bottom: 60px;
 }
@@ -21965,7 +21985,7 @@ Content Area-1 L-11-2
         Blog Details
     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .inner-blog-details-banner {
-  background: url(../image/blog/blog-details-banner.png);
+  background: url(../image/blog-details-banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24751,7 +24771,7 @@ Content Area-1 L-11-2
 }
 
 .inner-about-bg-area .content {
-  background: #B6280D;
+  background: #1787FC;
   border-radius: 0px 0px 30px 30px;
   padding: 32px 45px 18px 40px;
 }
