@@ -857,6 +857,7 @@ div#loading img {
   .reveal-header .mobile-menu-trigger span {
     background-color: #fff !important;
   }
+  
   .site-header .mobile-menu-trigger span:before,
   .site-header .mobile-menu-trigger span:after {
     content: '';
@@ -3314,7 +3315,7 @@ li.sub-menu--item.nav-item-has-children i {
   font-size: 21px;
   line-height: 30px;
   color: #213053;
-  margin-top: -6px;
+  /* margin-top: -6px; */
 }
 
 .feature-box-l2 .content-box p {
@@ -3598,7 +3599,14 @@ li.sub-menu--item.nav-item-has-children i {
   bottom: 10px;
   left: 10px;
 }
-
+.contant-area-2-l4-content-image{
+  height: 100%;
+  object-fit: cover;
+}
+.contant-area-2-l4-content-image img{
+  height: 100%;
+  object-fit: cover;
+}
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
  Testimonial Area-L2-1
         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -4885,9 +4893,10 @@ li.sub-menu--item.nav-item-has-children i {
   /* letter-spacing: 4px; */
   border-radius: 0;
   color: #FFFFFF;
-  width: 100%;
-  height: 56px;
+  width: auto;
+  height: 64px;
   background: #B6280D;
+  padding: 26px 32px;
 }
 
 @media (min-width: 480px) {
@@ -4898,15 +4907,15 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (min-width: 576px) {
   .hero-l4-btn .btn {
-    width: 416px;
-    height: 56px;
+    width: auto;
+    height: 64px;
   }
 }
 
 @media (min-width: 768px) {
   .hero-l4-btn .btn {
-    width: 416px;
-    height: 56px;
+    width: auto;
+    height: 64px;
   }
 }
 
@@ -5441,9 +5450,21 @@ li.sub-menu--item.nav-item-has-children i {
 
 .footer-l4-area-items p {
   font-weight: 600;
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 27px;
   color: #fff;
+}
+.footer-l4-area-items .info-text{
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  opacity: 80%;
+  margin-top: 40px;
+}
+.footer-l4-area-items .nav-link{
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
 }
 .footer-social-icon-l4 i {
   color: #1D263A;
@@ -5529,7 +5550,7 @@ li.sub-menu--item.nav-item-has-children i {
   line-height: 28px;
   color: #fff;
   opacity: 0.7;
-  margin-top: 25px;
+  margin-top: 80px;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
@@ -23583,12 +23604,12 @@ Content Area-1 L-11-2
   line-height: 32px;
   letter-spacing: -0.3px;
   color: #1D263A;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .inner-contact-2-items-area .card-area .content-box p {
-  font-size: 21px;
-  line-height: 32px;
+  font-size: 17px;
+  line-height: 30px;
   color: #1D263A;
   opacity: 0.8;
   margin-bottom: 0;
